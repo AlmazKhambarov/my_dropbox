@@ -1,0 +1,33 @@
+.login_main_container{
+
+    display: flex;
+  border: 1px solid ;
+    margin: 0 auto;
+    max-width: 432px;
+    padding: 10px;
+    .inp_login{
+        padding: 0px 100px 8px 14px;
+        font-size: 25px;
+        color:dimgray;
+        outline: none;
+    }
+    .form-control{
+        display: flex;
+        gap:15px;
+        flex-direction: column;
+    }
+    .register_link{
+        color:darkcyan;
+        text-align: end;
+    }
+    .login{
+        font-size: 20px;
+
+    }
+    .submit{
+        padding: 12px 2px;
+        font-size: 20px;
+        background-color: blue;
+        outline: none;
+    }
+}
